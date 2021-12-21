@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+
+h2{
+	color: #000000;
+}
+.container {
+padding-top: 8%;
+	
+}
+#form {
+
+	position: relative;
+	margin-top: 0px
+}
+
+#form fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+	position: relative
+}
+
+.finish {
+	text-align: center
+}
+
+#form fieldset:not(:first-of-type) {
+	display: none
+}
+
+.fieldset .button-mid{
+	display: flex;
+}
+
+
+#form .next-step {
+	position: relative;
+	width: 150px;
+	font-weight: bold;
+	color: #000000;
+	border: 0 none;
+	cursor: pointer;
+	margin: 10px 40px 10px 0px;
+	float: right;
+	padding: 3px 0px;
+}
+
+#form .previous-step {
+	position: relative;
+	width: 150px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	border: 0 none;
+	cursor: pointer;
+	padding: 3px 0px;
+	margin: 10px 5px 10px 0px;
+	float: right;
+	
+}
+@media (max-width:650px) {
+	#form .next-step {
+		margin: 10px 0px 10px 0px;
+	}
+	#form .previous-step {
+		margin: 10px 0px 10px 0px;
+	}
+}
+
+#form .bright {
+	position: relative;
+	width: 150px;
+	font-weight: bold;
+	color: #000000;
+	border: 0 none;
+	cursor: pointer;
+	margin: 10px 40px 10px 0px;
+	float: right;
+	padding: 3px 0px;
+}
+#form .bleft {
+	position: relative;
+	width: 150px;
+	font-weight: bold;
+	color: #000000;
+	border: 0 none;
+	cursor: pointer;
+	margin: 10px 40px 10px 0px;
+	float: right;
+	padding: 3px 0px;
+}
+@media (max-width: 650px) {
+	#form .bleft {
+		margin: 10px 50% 10px 0px;
+
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+	#form .next-step {
+		
+	margin-right: 50px;
+	
+	}
+  }
+
+.form, .previous-step {
+	background: none;
+}
+
+.form, .next-step {
+	background: none;
+}
+
+
+#form .previous-step:hover,
+#form .previous-step:focus {
+	background: #000000f3;
+  color: white;
+  border-radius: 25px;
+
+}
+
+#form .next-step:hover,
+#form .next-step:focus {
+	background: #000000f3;
+  color: white;
+  border-radius: 25px;
+  
+}
+
+.text {
+	color: #000000;
+	font-weight: normal
+}
+
+#progressbar {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 8px;
+	overflow: hidden;
+	color: rgb(255, 255, 255);
+	z-index: 1;
+}
+
+@media (min-width: 950px) {
+	#progressbar {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 8px;
+	overflow: hidden;
+	color: rgb(255, 255, 255);
+	z-index: 1;
+	}
+}
+
+
+
+
+#progressbar .active {
+	color: #000000
+}
+
+#progressbar li {
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+	font-size: 16px;
+	width: 25%;
+	float: left;
+	position: relative;
+	font-weight: 400
+	
+}
+
+#progressbar #step1:before {
+	content: "1"
+}
+
+#progressbar #step2:before {
+	content: "2"
+}
+
+#progressbar #step3:before {
+	content: "3"
+}
+
+#progressbar #step4:before {
+	content: "4"
+}
+
+#progressbar li:before {
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	display: block;
+	font-size: 30px;
+	color: #ffffff;
+	background: lightgray;
+	border-radius: 50%;
+	margin: 0 auto 10px auto;
+	padding: 2px
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left: 1;
+	top: 25px;
+	z-index: -1
+}
+#progressbar li.activeline:after  {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left: 1;
+	top: 25px;
+	z-index: 1;
+}
+
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+	background: #000000
+}
+
+.progress {
+	height: 20px
+}
+
+.progress-bar {
+	background-color: #000000;
+}
