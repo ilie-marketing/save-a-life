@@ -104,13 +104,31 @@
 }
   
 }
-.button__icon {
+.button__icon1 {
   
   display: flex;
   justify-content: center;
-  height: 25px;
-  padding: 10px;
+  height: 20px;
+  padding: 10px 1px 10px 0px;
   
+}
+.button__icon2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px 10px 0px;
+  height: 25px; 
+  margin-left: 10px; 
+  margin-right: 0px;
+}
+@media (max-width:950px) {
+  .button__icon1 {
+    margin: 0px;
+    padding: 10px;
+  }
+  .button__icon2 {
+    margin: 0px;
+    padding: 10px;
+  }
 }
 .Paypal2 {
   display: none;
@@ -140,6 +158,7 @@
 }
 .button__text {
 text-align: center;
+margin-left: 10px;
 }
 @media (max-width: 600px){
   .button__text {
@@ -336,3 +355,5 @@ text-align: center;
       justify-content: center; 
       align-items: center;
     }
+
+    
