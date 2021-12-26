@@ -290,18 +290,29 @@ line-height: 18.75px;
 
     .imagini-rp p {
       padding-top: 15px;
-      
       font-family: 'Roboto' sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: center;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
 
 
     }
 
+    @media (max-width:450px) {
+      .imagini-rp p {
+        font-size: 1rem;
+      }
+      
+    }
+    @media (max-width:390px) {
+      .imagini-rp p {
+        font-size: 0.85rem;
+      }
+      
+    }
     /*strada asociatiei*/
 
     .frame33 {
