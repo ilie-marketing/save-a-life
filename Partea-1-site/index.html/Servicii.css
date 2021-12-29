@@ -447,7 +447,7 @@
     width: 100px;
 }
 .instaimg {
-    background-image: url(.//assets/img/icons8-instagram-120.PNG);
+    background-image: url(../assets/img/icons8-instagram-120.png);
     background-size: cover;
     height: 100px;
     width: 100px;
