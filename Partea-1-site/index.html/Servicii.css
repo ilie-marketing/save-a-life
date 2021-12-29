@@ -441,13 +441,13 @@
 }
 
 .fbimg {
-    background-image: url(/assets/img/icons8-facebook-120.png);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/b2f3504c4152a657d2de61356f97ecd7fe93f8e5/assets/img/icons8-facebook-120.png);
     background-size: cover;
     height: 100px;
     width: 100px;
 }
 .instaimg {
-    background-image: url(/assets/img/icons8-instagram-120.png);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/b2f3504c4152a657d2de61356f97ecd7fe93f8e5/assets/img/icons8-instagram-120.png);
     background-size: cover;
     height: 100px;
     width: 100px;
