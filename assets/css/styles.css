@@ -331,3 +331,30 @@
     }
     
 }
+.section-1 .container-for-video2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 25%;
+    background-color: none;
+    z-index: 10;
+}
+
+@media(max-width:990px) {
+    .section-1 .container-for-video2 {
+        width: 80%;
+        margin-top: 15vh;
+        margin-bottom: 5vh;
+        
+    }
+    
+}
+@media (max-width:700px) {
+    .section-1 .container-for-video2 {
+        width: 80%;
+        margin-top: 0vh;
+        margin-bottom: 50%;
+    }
+    
+}
