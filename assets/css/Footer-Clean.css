@@ -33,6 +33,7 @@
   text-align: right;
 }
 
+
 @media (max-width:767px) {
   .footer-clean .item {
     text-align: center;
@@ -84,3 +85,6 @@
   opacity: 0.6;
 }
 
+.footer-clean .item1 {
+  visibility: hidden;
+}

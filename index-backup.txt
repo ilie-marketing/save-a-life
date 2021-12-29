@@ -1,0 +1,259 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save a life - Servicii</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=5929c70955c4c77e8ac87a0067c403ec">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=220695d33937f0c1d9977599320bf21d">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css?h=220695d33937f0c1d9977599320bf21d">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css?h=8f120d33c0bf092c48e3c98c6b1cd5d3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css?h=229772c539e6c2c6adb8f01fe596a7ca">
+    <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/logo-savealife.png" type="image/x-icon">
+  <link rel="stylesheet" href="/Partea-1-site/index.html/Servicii.css">
+  <link rel="stylesheet" href="/Partea-1-site/index.html/testimoniale.css">
+  <link rel="stylesheet" href="/Partea-1-site/index.html/testimoniale.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;">
+      <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 100px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#Servicii" style="margin: 0px 10px;">Servicii</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Despre-noi" style="margin: 0px 10px;">Despre noi</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Statistici" style="margin: 0px 10px;">Statistici</a></li>
+                  
+                  <li class="nav-item"><a class="nav-link" href="#Contact" style="margin: 0px 10px;">Contacte</a></li>
+              </ul><a class="btn btn-light border rounded-pill action-button" role="button" href="Redirectioneaza.html" style="background: #000000;padding: 14px 42px;margin: 0px 50px 0px 40px;">Redirecționează 3.5%</a>
+          </div>
+      </div>
+  </nav>
+  </header>
+  
+<section class="section-f-servicii"> 
+  <div class="container123">
+    <div class="section-servicii-1" >
+      <div class="top-part">
+        <h1>Împreună pentru câinele tău!</h1>
+        <button class="button-1">Citește mai mult</button>
+        </div>
+    
+      </div>
+    
+    <div class="case-1" id="Servicii">
+      <h3 class="small-text" style="text-transform:uppercase;">Serviciile Noastre</h3>
+      <h2 class="big-text">Indiferent de ce ai nevoie, suntem gata să te ajutăm pe tine și pe animăluțul tău!</h2>
+      <div class="block">
+        <div class="left">
+          <div class="cassete">
+            <h2>Salvează</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facilis adipisci in illum odio! Veniam?</p>
+            <h5><a class="a-links" href="Salveaza.html">Citește mai mult</a></h5>
+          </div>
+          <div class="cassete">
+            <h2>Adoptă</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus harum voluptates laudantium a hic totam?</p>
+            <h5><a class="a-links" href="Adopta.html">Citește mai mult</a></h5>
+        </div>
+    
+        </div>
+        <div class="right">
+           <div class="cassete">
+            <h2>Donează</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae exercitationem cumque placeat neque unde ipsam!</p>
+            <h5><a class="a-links" href="Donatii.html">Citește mai mult</a></h5>
+          </div>
+          <div class="cassete">
+            <h2>Foster</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, mollitia esse maiores minima consequuntur accusamus?</p>
+            <h5><a class="a-links" href="Salveaza.html">Citește mai mult</a></h5>
+          </div>
+    
+        </div>
+    
+      </div>
+    </div>
+    <div class="case-2" id="Despre-noi" > 
+      <h3 class="small-text" style="text-transform:uppercase;">Despre noi</h3>
+      <h2 class="big-text">Doritori să ajutăm în găsirea unui adăpost pentru cățeluși. Suntem prietenoși!</h2>
+      <div class="wrapper">
+        <div class="content-1">
+          <img class="left-img" src="">
+         <div class="images">
+          <img src="">
+          <img src="">
+         
+      
+         </div>
+        </div>
+        <div class="text-1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem natus numquam odio esse maiores, dolore iusto facilis rem, ipsa corporis molestias quis inventore consequuntur asperiores voluptatibus dicta optio eius. Sint sit ratione dolores modi ipsam eligendi, cupiditate earum dolorem aut molestiae mollitia sequi itaque?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam quidem laborum magni! Maiores dolorum est alias. Quidem, quaerat sapiente?</p>
+          <h5>Citește mai mult</h5>
+      
+        </div>
+    
+      </div>
+    </div>
+
+    <div class="case-3" id="" >
+      <span class="anchor-statistici" id="Statistici" ></span>
+      <div class="column-1">
+        <h3>124</h3>
+        <h4>Câini Salvați</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, inventore mollitia optio debitis sit exercitationem!</p>
+      </div>
+      <div class="column-2">
+        <h3>69</h3>
+        <h4>Câini vaccinați</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore repellat accusamus inventore laboriosam amet voluptates?</p>
+      </div>
+      <div class="column-3">
+        <h3>364</h3>
+        <h4>Zile de mâncare</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, doloremque aut dolore officiis eaque hic.</p>
+      </div>
+      <div class="column-4">
+        <h3>124</h3>
+        <h4>Câini în plasament</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aut ea! Aperiam, ratione ut? A.</p>
+      </div>
+    </div>
+    
+    <div class="servicii-testimoniale" id="Testimoniale" >
+      <div class="case-4">
+        <h3 class="small-text" style="text-transform:uppercase;">Testimoniale</h3>
+        <h2 class="big-text">Părerea celor ce ne calcă pragul este foarte importantă pentru noi</h2>
+      </div>
+        <div class="testimonials">
+        
+        
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slide-box">
+                <!-- Testi One -->
+                <p class="comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <img src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" />
+                <h3 class="name">Visan Andrei</h3>
+                <h4 class="job">Romania, mun. Ploiești</h4>
+              </div>
+              <div class="slide-box">
+                <!-- Testi Two -->
+                <p class="comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+                <img src="https://images.unsplash.com/photo-1627541718143-1adc1b582e62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bXVzbGltfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h3 class="name">Hirok Meryam</h3>
+                <h4 class="job">Full stack Developer, Speaker</h4>
+              </div>
+              <div class="slide-box">
+                <!-- Testi Three -->
+                <p class="comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+                <img src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGZhY2V8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h3 class="name">Sebastian Sert</h3>
+                <h4 class="job">UX/UI Designer, Phtographer</h4>
+              </div>
+            </div>
+        
+            <a href="#!" class="control-slider btn-left">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="#!" class="control-slider btn-right">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+
+    </div>
+    
+    <div class="case-5" id="Contact" >
+      <h3 class="small-text" style="text-transform:uppercase;">Contact</h3>
+      <h2 class="big-text">Vă stăm la dispoziție oriunde și oricând. Pentru orice informații ne găsiți aici</h2>
+      <div class="content-2">
+        <div class="contact">
+          <h4>Brașov, str. Căminului nr. 666</h4>
+          <h5>unemailaferent@gmail.com</h5>
+          <h5>07000000</h5>
+          <div class="social-media">
+           <div class="facebook">
+             <div class="fbimg"></div>
+            <p>/AsociațiaSaveALife</p>
+           </div>
+           
+           <div class="instagram">
+             <div class="instaimg"></div>
+            <p>@AsociațiaSaveALife</p>
+           </div>
+           
+    
+          </div>
+          
+        </div>
+        <img src="">
+      </div>
+    
+    </div>
+    
+    </div>
+</section>
+
+<footer data-aos="fade-up" data-aos-duration="1000" class="footer-clean" style="background: #f5f5f5;text-align: left;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3 text-center item social" style="text-align: left;">
+              <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div><a href="https://www.facebook.com/AsociatiaSaveALife/" target="_blank" ><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Asociația Save A Life © 2021</p>
+          </div>
+          <div class="col-sm-4 col-md-3 item item1" style="text-align: center;">
+              <h3>Altele</h3>
+              <ul>
+                  <li><a href="#">Lorem &gt;</a></li>
+                  <li><a href="#">Lorem &gt;</a></li>
+                  <li><a href="#">Lorem &gt;</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+              <h3>Documente utile</h3>
+              <ul>
+                  <li><a href="#">avizare &gt;</a></li>
+                  <li><a href="#">ordine interioară &gt;</a></li>
+                  <li><a href="#">extras de cont &gt;</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+              <h3>Regulamente</h3>
+              <ul>
+                  <li><a href="Fooster.html">Creștere animale &gt;</a></li>
+                  <li><a href="#">Adoptă&gt;</a></li>
+                  <li><a href="Donatii.html">Donează &gt;</a></li>
+                  <li><a href="Salveaza.html">Salvează &gt;</a></li>
+
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+<script src="/Partea-1-site/index.html/testimoniale.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+    <script src="assets/js/bs-init.js?h=02a8f8d0119ea38ce4670281c1438789"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</html>
