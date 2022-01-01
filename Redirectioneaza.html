@@ -20,8 +20,8 @@
 </head>
 
 <body style="font-family: Roboto, sans-serif;">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;">
-        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;" id="navbar123">
+        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 39px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html#Servicii" style="margin: 0px 10px;">Servicii</a></li>
@@ -32,6 +32,18 @@
                 </ul><a class="btn btn-light border rounded-pill action-button" role="button" href="Redirectioneaza.html" style="background: #000000;padding: 14px 42px;margin: 0px 50px 0px 40px;">Redirecționează 3.5%</a>
             </div>
         </div>
+<script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                  if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar123").style.top = "0";
+                  } else {
+                    document.getElementById("navbar123").style.top = "-100%";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+            </script>
     </nav>
     <section class="section-1">
       <div class="responsive-heading">
@@ -48,7 +60,7 @@
       <div class="mid-section">
         <div class="case">
           
-          <h2 class="small-text">Pasul 1. Cum poți redirecționa</h2>
+          <h2 class="small-text">Pasul 1. Cum poți redirecționa?</h2>
           <h2 class="big-text">O donație la momentul potrivit, poate salva animăluțele</h2>
           <div class="block">
             <img src="" />
@@ -67,7 +79,7 @@
           </div>
         </div>
         <div class="case">
-          <h2 class="small-text">Pasul 2. Cum poți redirecționa</h2>
+          <h2 class="small-text">Pasul 2. Cum poți redirecționa?</h2>
           <h2 class="big-text">O donație la momentul potrivit, poate salva animăluțele</h2>
           <div class="block">
             <img src="" />
@@ -86,7 +98,7 @@
           </div>
         </div>
         <div class="case">
-          <h2 class="small-text">Pasul 3. Cum poți redirecționa</h2>
+          <h2 class="small-text">Pasul 3. Cum poți redirecționa?</h2>
           <h2 class="big-text">O donație la momentul potrivit, poate salva animăluțele</h2>
           <div class="block">
             <img src="" />
@@ -109,27 +121,25 @@
           <div class="Redirectioneaza-qa-container">
             <button class="accordion">Până când mai pot trimite formularul? <i class="ion-chevron-right" style="float: right;"></i></button>
               <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Pentru anul fiscal 2021, formularele 230 - "Cerere privind destinația sumei reprezentând  până la 3,5% din impozitul anual datorat" și 212 - "Declarație unică privind impozitul pe venit și contribuțiile sociale datorate de persoane fizice" se depun până la data de 25 mai 2022.</p>
               </div>
             <button class="accordion">Am nevoie de vre-un document de la locul de muncă?<i class="ion-chevron-right" style="float: right;"></i></button>
               <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Nu, un asemenea document nu este necesar.</p>
               </div>
             <button class="accordion">Aceasta este o donație?<i class="ion-chevron-right" style="float: right;"></i></button>
               <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Deși nu este recunoscută oficial sub termenul "donație", poate fi considerată astfel. Aceasta este o redirecționare a unor fonduri mici care sunt redistribuite din impozitul pe venit. Prin această intervenție, fondurile acestea susțin  și ajung la Asociația Save a Life.</p>
               </div>
               <button class="accordion">De ce 3.5%?<i class="ion-chevron-right" style="float: right;"></i></button>
               <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>În fiecare an, orice cetățean poate alege să redirecționeze 3.5% din impozitul pe venit către o cauză în care crede și pe care vrea să o susțină. Cu toate astea, majoritatea nu o fac niciodată din două motive: un proces greoi și lipsa informațiilor centralizate cu privire la ONG-urile pe care le-ar putea susține.
+                  <br><br>
+                  Dacă toți angajații din România ar completa acest formular, după un calcul simplu, ținând cont de salariul mediu brut, anual s-ar putea redirecționa către organizațiile non-profit peste 200 milioane de euro. Împreună putem face asta să se întâmple.</p>
               </div>
               <button class="accordion">Nu pot face totul online?<i class="ion-chevron-right" style="float: right;"></i></button>
               <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-              <button class="accordion">Ce, Cine, Unde și De ce contează pentru noi și pentru dumneavoastră?<i class="ion-chevron-right" style="float: right;"></i></button>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p ><a style="text-decoration: none;" href="https://redirectioneaza.ro" target="_blank">Redirectioneaza.ro</a> este platforma prin care puteti redirecționa ONLINE</p>
               </div>
           </div>
 
@@ -140,8 +150,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 text-center item social" style="text-align: left;">
-                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div><a href="https://www.facebook.com/AsociatiaSaveALife/" target="_blank" ><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Asociația Save A Life © 2021</p>
+                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 69px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div>
+                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Copyright © 2020-2021 <br> Asociația Save A Life</p>
                 </div>
                 <div class="col-sm-4 col-md-3 item item1" style="text-align: center;">
                     <h3>Altele</h3>

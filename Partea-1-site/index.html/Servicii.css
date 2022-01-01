@@ -130,23 +130,23 @@
 }
 .anchor-statistici1 {
     display: block;
-    height: 130px; /*same height as header*/
-    margin-top: -130px;/*same height as header*/
+    height: 86px; /*same height as header*/
+    margin-top: -86px;/*same height as header*/
     visibility: hidden;
 }
 @media (max-width:900px) {
     .anchor-statistici1 {
         display: block;
-        height: 40vh; /*same height as header*/
-        margin-top: -40vh; /*same height as header*/
+        height: 278px; /*same height as header*/
+        margin-top: -278px; /*same height as header*/
         visibility: hidden; 
     }
 }
 @media (max-width:550px) {
     .anchor-statistici1 {
         display: block;
-        height: 300px; /*same height as header*/
-        margin-top: -300px; /*same height as header*/
+        height: 30px; /*same height as header*/
+        margin-top: -30px; /*same height as header*/
         visibility: hidden; 
     }
 }
@@ -267,7 +267,7 @@
 .images img {
     border-radius: 20px;
     height: 170px;
-    width: 170px;  
+    width: 170px; 
 }
 .images .right-img-1 {
     margin-bottom: 17.5px;

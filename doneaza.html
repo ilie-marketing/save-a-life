@@ -35,12 +35,12 @@
             <img class="button__icon2" src="imagini/box.png" alt="">
         </span>
         <span class="button__text">Resurse proprii</span></button>
-        <button type="button" href="https://www.paypal.me/GabrielaStreza" class="tablinks a3" onclick="openCity(event, 'Paypal')"><span >
-            <img class="Paypal" href="https://www.paypal.me/GabrielaStreza" src="imagini/Paypal.png" alt="" target="_blank" >
+        <button type="button"  class="tablinks a3" onclick="PayPal_NewTab()"><span >
+            <img class="Paypal"  src="imagini/Paypal.png" alt="" target="_blank" >
             <img class="Paypal2" src="imagini/Paypal-calumea-responsive.png" alt="">
         </span>
         <span class="button__text"></span></button>
-        <button type="button" class="tablinks a4" onclick="openCity(event, 'Paws-Hopes')"><span >
+        <button type="button" class="tablinks a4" onclick="PawsHope_NewTab()"><span >
             <img class="Paws-Hope" src="imagini/Paws-hope.png" alt=""></img>
             
         </span>
@@ -227,4 +227,19 @@
 
    
 </body>
+<!-- Script deschidere link PayPal și PawsHope într-un tab nou -->
+<script>
+    function PayPal_NewTab() {
+        window.open(
+          "https://www.paypal.me/GabrielaStreza", "_blank");
+    }
+</script>
+<script>
+    function PawsHope_NewTab() {
+        window.open(
+          "https://www.paws-hope.com/asociatia-save-a-life/", "_blank");
+    }
+    
+</script>
+<!-- Script deschidere link PayPal într-un tab nou -->
 </html> 

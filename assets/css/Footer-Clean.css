@@ -1,7 +1,15 @@
 .footer-clean {
-  padding: 50px 0;
+  padding: 20px 0px 0px 0px;
   background-color: #fff;
   color: #4b4c4d;
+  min-height:170px ;
+}
+@media (max-width:420px) {
+  .footer-clean {
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+  
 }
 
 .footer-clean h3 {
@@ -88,3 +96,14 @@
 .footer-clean .item1 {
   visibility: hidden;
 }
+
+@media (max-width:575px) {
+  .footer-clean .item1 {
+    display: none;
+  }
+}
+@media (max-width:767px) {
+  .footer-clean .item1{
+    display: none;
+  }
+} 

@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="shortcut icon" href="assets/img/logo-savealife.png" type="image/x-icon">
+    <link rel="stylesheet" href="Partea-1-site/Fooster/Fooster.css">
 </head>
 
 <body style="font-family: Roboto, sans-serif;">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;">
-        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;" id="navbar123">
+        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 39px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html#Servicii" style="margin: 0px 10px;">Servicii</a></li>
@@ -33,10 +34,23 @@
                 </ul><a class="btn btn-light border rounded-pill action-button" role="button" href="Redirectioneaza.html" style="background: #000000;padding: 14px 42px;margin: 0px 50px 0px 40px;">Redirecționează 3.5%</a>
             </div>
         </div>
+<script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                  if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar123").style.top = "0";
+                  } else {
+                    document.getElementById("navbar123").style.top = "-100%";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+            </script>
     </nav>
     <section class="section-1">
         <div class="responsive-heading">
             <h2>Este momentul să adopți!</h2>
+            <span style="height: 20px;"></span>
         </div>
         
         
@@ -45,13 +59,29 @@
             </div>
         
     </section>
+    <section class="Fooster-section-2">
+        <div class="Fooster-container-1">
+            <h2 class="Fooster-title">Programul ADOPTĂ:</h2>
+            <div class="Fooster-container-for-p-main">
+                <div class="Fooster-container-for-p">
+                    <div class="Fooster-p1">
+                        <p>În cazul în care îți dorești un animăluț observat pe una dintre paginile noastre online (Facebook, Instagram, site web) te încurajăm să ne scrii în chatul disponibil pentru a cere detalii sau a programa ziua în care-l poți lua acasă cu tine. Sau, mai rapid, să dai un telefon la numărul afișat în Contacte.</p>
+                    </div>
+                    <div class="Fooster-p2">
+                        <p>În cazul în care dorești să te convingi fizic că merită să adopți, te așteptăm cu drag la sediul nostru, în intervalul 10-17, pentru a-ți cunoaște viitorul amic patruped.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
 
     <footer data-aos="fade-up" data-aos-duration="1000" class="footer-clean" style="background: #f5f5f5;text-align: left;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 text-center item social" style="text-align: left;">
-                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div><a href="https://www.facebook.com/AsociatiaSaveALife/" target="_blank" ><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Asociația Save A Life © 2021</p>
+                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 69px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div>
+                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Copyright © 2020-2021 <br> Asociația Save A Life</p>
                 </div>
                 <div class="col-sm-4 col-md-3 item item1" style="text-align: center;">
                     <h3>Altele</h3>

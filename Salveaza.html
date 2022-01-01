@@ -19,8 +19,8 @@
 </head>
 
 <body style="font-family: Roboto, sans-serif;">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;">
-        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-center d-lg-flex justify-content-lg-center navigation-clean-search" style="background: #f5f5f5;" id="navbar123">
+        <div class="container-fluid"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 39px;margin: 0px 0px 0px 30px;"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html#Servicii" style="margin: 0px 10px;">Servicii</a></li>
@@ -32,6 +32,18 @@
                 </ul><a class="btn btn-light border rounded-pill action-button" role="button" href="Redirectioneaza.html" style="background: #000000;padding: 14px 42px;margin: 0px 50px 0px 40px;">Redirecționează 3.5%</a>
             </div>
         </div>
+<script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                  if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar123").style.top = "0";
+                  } else {
+                    document.getElementById("navbar123").style.top = "-100%";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+            </script>
     </nav>
     <section class="section-1">
         <div class="responsive-heading">
@@ -106,8 +118,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 text-center item social" style="text-align: left;">
-                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 80px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div><a href="https://www.facebook.com/AsociatiaSaveALife/" target="_blank" ><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Asociația Save A Life © 2021</p>
+                    <div class="d-flex justify-content-center justify-content-md-center justify-content-xxl-center" style="max-width: 100%;"><a href="index.html"><img src="assets/img/logo-savealife.png" style="height: 69px;padding-right: 0px;margin-left: 0;text-align: center;"></img></a></div>
+                    <p class="copyright" style="margin-left: 10px;padding-bottom: 20px;">Copyright © 2020-2021 <br> Asociația Save A Life</p>
                 </div>
                 <div class="col-sm-4 col-md-3 item item1" style="text-align: center;">
                     <h3>Altele</h3>

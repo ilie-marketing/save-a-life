@@ -132,12 +132,17 @@ h2 {
 }
 
 .small-text {
+    font-size: 1.563rem;
+    text-transform: uppercase;
+    text-align: center;
     font-weight: lighter;
 }
 .big-text {
-    font-size: 35px;
+    font-size: 1.875rem;
     font-weight: bold;
     margin-bottom: 100px;
+    text-align: center;
+    margin-left: 0px;
 }
 
 .block {
@@ -163,7 +168,7 @@ h2 {
 .text-1 p {
     
    max-width: 400px;
-   font-size: 25px;
+   font-size: 1rem;
    line-height: 25px;
    font-family: 'Roboto';
   
@@ -233,7 +238,7 @@ app-footer {
     justify-content: center;
 }
 
-@media (max-width: 420px){
+@media (max-width: 670px){
     
 h2 {
     font-family: 'Roboto';
@@ -254,7 +259,7 @@ h2 {
 }
 
 .top-section h1{
-    font-size: 35px;
+    font-size: 1.875rem;
     max-width: 300px;
     font-weight: bold;
     margin-left: 0px;
@@ -263,7 +268,7 @@ h2 {
 
 .mid-section {
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -286,7 +291,7 @@ h2 {
 .big-text {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
     margin-left: 20px;
 }
 
@@ -315,7 +320,6 @@ h2 {
 .text-1 p {
     
    max-width: 400px;
-   font-size: 25px;
    line-height: 25px;
    font-family: 'Roboto';
   
