@@ -62,12 +62,13 @@
     text-transform: uppercase;
 }
 .big-text {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     margin-bottom: 30px;
     max-width: 846px;
     text-align: center;
 }
+
 
 .section-servicii-1 {
     max-width: 100vw;

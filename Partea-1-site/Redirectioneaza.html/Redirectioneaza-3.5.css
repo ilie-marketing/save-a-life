@@ -397,6 +397,15 @@ app-footer {
 
 
 }
+.case button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.case button i {
+    font-size: 25px;
+}
 
 
 
