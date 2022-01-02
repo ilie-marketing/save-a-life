@@ -407,7 +407,11 @@ app-footer {
     font-size: 25px;
 }
 
-
+.text-intro-redirectionare {
+    max-width: 840px;
+    margin-bottom: 50px;
+    padding: 0px 15px;
+}
 
 
 
