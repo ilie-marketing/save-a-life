@@ -415,7 +415,7 @@
     max-width: 1280px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -470,21 +470,25 @@
     background-color: black;
 
 }
-
 .fbimg {
-    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/b2f3504c4152a657d2de61356f97ecd7fe93f8e5/assets/img/icons8-facebook-120.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fbimg img{
+    background-color: none;
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    height: 31px;
+    width: 31px;
     z-index: 99;
 }
-.instaimg {
-    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/b2f3504c4152a657d2de61356f97ecd7fe93f8e5/assets/img/icons8-instagram-120.png);
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    z-index: 99px;
+.fbimg a {
+    text-decoration: none;
+    color: inherit;
 }
+
 
 
 

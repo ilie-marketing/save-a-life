@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css?h=229772c539e6c2c6adb8f01fe596a7ca">
     <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="shortcut icon" href="assets/img/logo-savealife.png" type="image/x-icon">
-  <link rel="stylesheet" href="/Partea-1-site/index.html/Servicii.css">
+<link rel="shortcut icon" href="assets/img/logo-savealife-2.png" type="image/x-icon">  <link rel="stylesheet" href="/Partea-1-site/index.html/Servicii.css">
   <link rel="stylesheet" href="/Partea-1-site/index.html/testimoniale.css">
   <link rel="stylesheet" href="/Partea-1-site/index.html/testimoniale.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -242,7 +241,7 @@
               <h3>Regulamente</h3>
               <ul>
                   <li><a href="Fooster.html">Creștere animale &gt;</a></li>
-                  <li><a href="#">Adoptă&gt;</a></li>
+                  <li><a href="Adopta.html">Adoptă&gt;</a></li>
                   <li><a href="Donatii.html">Donează &gt;</a></li>
                   <li><a href="Salveaza.html">Salvează &gt;</a></li>
 
