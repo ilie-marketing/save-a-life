@@ -2934,12 +2934,12 @@
 	text-align: center;
 	height: 50px;
 	line-height: 50px;
-	vertical-align: middle
+	vertical-align: middle;
 }
 
 .crt-widget .crt-post.crt-post-helsinki:not(.crt-post-has-image) .crt-post-footer-helsinki .crt-post-date a {
 	width: 100%;
-	font-weight: 500
+	font-weight: 500;
 }
 
 .crt-widget .crt-post.crt-post-helsinki:not(.crt-post-has-image) .crt-post-footer-helsinki .crt-social-icon svg {
@@ -2952,7 +2952,7 @@
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
-	right: 20px
+	right: 20px;
 }
 
 .crt-wall-post {
@@ -2963,7 +2963,7 @@
 	overflow: hidden;
 	position: relative;
 	padding: 0;
-	width: 100%
+	width: 100%;
 }
 
 .crt-wall-post .crt-post-c.crt-post-border {

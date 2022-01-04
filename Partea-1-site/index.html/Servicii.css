@@ -181,8 +181,8 @@
 }
 
 .cassete-servicii {
-    width: 300px;
-    min-height: 200px;
+    max-width: 522px;
+    min-height: 215px;
     background-color: #f0f0f0;
     padding: 30px;
     margin: 20px;
@@ -194,17 +194,19 @@
 
 
 .cassete-servicii p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18.75px;
 }
 
 .cassete-servicii h2 {
     font-size: 22px;
+    padding-left: 20px;
 }
 .a-links-servicii {
     text-decoration: none;
     color: #000000;
     font-size: 12px;
+    font-style: bold;
 }
 
 .a-links-servicii:hover {
@@ -522,7 +524,7 @@
         min-height: 150px;
         background-color: #f0f0f0;
         padding: 30px;
-        margin: 20px;
+        margin: 20px 5px;
         border-radius: 20px;
     }
 
@@ -772,3 +774,46 @@ border: 2px solid black;
 }
 
 /* END CAROUSEL */
+
+.container-general-servicii-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.container-general-servicii-icon img {
+    width: 45px;
+    border-radius: 10px;
+}
+
+.servicii-fooster-icon {
+    padding-bottom: 20px;
+    border-bottom: solid 2px #86d359;
+
+}
+.servicii-fooster-icon-i2{
+    padding-bottom: 20px;
+    border-bottom: solid 2px #f7b32b;
+
+}
+.servicii-fooster-icon-i3{
+    padding-bottom: 20px;
+    border-bottom: solid 2px #1fe7fa;
+
+}
+.servicii-fooster-icon-i4{
+    padding-bottom: 20px;
+    border-bottom: solid 2px #fa311f;
+
+}
+
+.titlu-servicii {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #ffffff;
+    width: 100%;
+}

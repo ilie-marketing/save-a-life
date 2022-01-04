@@ -151,10 +151,9 @@ h2 {
     flex-direction: row;
 }
 
-.block img {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(211, 211, 211);
+.block .Redirectioneaza-html-img {
+    max-height: 305px;
+    max-width: 305px;
     border-radius: 20px;
 }
 
@@ -303,10 +302,9 @@ h2 {
     justify-content: center;
 }
 
-.block img {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(211, 211, 211);
+.block .Redirectioneaza-html-img {
+    max-height: 305px;
+    max-width: 305px;
     border-radius: 20px;
 }
 
@@ -412,6 +410,7 @@ app-footer {
     margin-bottom: 50px;
     padding: 0px 15px;
 }
+
 
 
 
