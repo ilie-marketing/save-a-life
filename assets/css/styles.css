@@ -12,7 +12,7 @@
 .index-background {
     height: inherit;
     width: inherit;
-    background-image: url(assets/img/background-index.html.jpg);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/main/assets/img/background-index.html.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
 .Fooster-html-background {
     height: inherit;
     width: inherit;
-    background-image: url(assets/img/Fooster.html.jpg);
+    background-image: url(https://github.com/ilie-marketing/save-a-life/blob/main/assets/img/Fooster.html.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
 .salveaza-html-background {
     height: inherit;
     width: inherit;
-    background-image: url(assets/img/salveaza.html.jpg);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/main/assets/img/salveaza.html.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@
 .adopta-html-background {
     height: inherit;
     width: inherit;
-    background-image: url(assets/img/adopta.html.jpg);
+    background-image: url(https://github.com/ilie-marketing/save-a-life/blob/main/assets/img/adopta.html.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@
 .Redirectioneaza-html-background {
     height: inherit;
     width: inherit;
-    background-image: url(assets/img/Redirectioneaza.jpg);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/main/assets/img/Redirectioneaza.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@
 .doneaza-html-background {
     height: 100%;
     width: 100%;
-    background-image: url(assets/img/Doneaza.html.jpg);
+    background-image: url(https://raw.githubusercontent.com/ilie-marketing/save-a-life/main/assets/img/Doneaza.html.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
